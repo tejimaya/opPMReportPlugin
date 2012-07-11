@@ -18,6 +18,7 @@
 </table>
 
 <h2>日別PMレポート</h2>
+<?php if (count($lastDates) > 0): ?>
 <h3><?php echo date('Y年m月', strtotime('-1 month')) ?></h3>
 <table>
   <tr>
@@ -35,6 +36,7 @@
   </tr>
 <?php endforeach ?>
 </table>
+<?php endif; ?>
 
 <h3><?php echo date('Y年m月') ?></h3>
 <table>
