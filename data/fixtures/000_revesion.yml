@@ -1,0 +1,4 @@
+SnsConfig:
+  op_pm_report_current_revision:
+    name: "opPMReportPlugin_revision"
+    value: 1

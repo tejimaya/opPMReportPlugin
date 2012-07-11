@@ -1,0 +1,7 @@
+Navigation:
+  backend_site_pm_report:
+    type: "backend_side"
+    uri: "report/index"
+    Translation:
+      ja_JP:
+        caption: "PMレポート"

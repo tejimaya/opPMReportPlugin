@@ -1,0 +1,7 @@
+report:
+  login:
+    task: TotalLogin
+    caption: "Num of Login"
+#  member:
+#    task: TotalMember
+#    caption: "Num of Member"

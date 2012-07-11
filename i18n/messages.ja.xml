@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="">
+        <source>Num of Login</source>
+        <target>延べログイン数</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Num of Member</source>
+        <target>メンバー総数</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
