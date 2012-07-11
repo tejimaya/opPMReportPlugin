@@ -36,7 +36,6 @@
 <?php endforeach ?>
 </table>
 
-</table>
 <h3><?php echo date('Y年m月') ?></h3>
 <table>
   <tr>
