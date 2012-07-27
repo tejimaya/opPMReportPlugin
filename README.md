@@ -12,15 +12,15 @@ SNSの各データを集計するプラグイン
 閲覧方法
 -----------
 
-管理画面トップ > PMレポート（/pc_backend.php/report）にアクセス。
+管理画面トップ > PMレポート（/pc\_backend.php/report）にアクセス。
 
 ### 管理画面メニューに「PMレポート」が存在しない場合
 
-管理画面 ナビゲーション設定 > 管理画面ナビ設定（/pc_backend.php/navigation/list/app/backend）より以下の設定を追加。
+管理画面 ナビゲーション設定 > 管理画面ナビ設定（/pc\_backend.php/navigation/list/app/backend）より以下の設定を追加。
 
 URL: /report
 項目名(en): PMReport
-項目名(ja_JP): PMレポート
+項目名(ja\_JP): PMレポート
 
 設定完了後、管理画面メニューよりPMレポートへアクセス可能となる。
 
@@ -72,6 +72,6 @@ lib/task/opPMReportExecああああTask.class.php というようなファイル
 
 lib/task/opPMReportExecああああTask.class.php のようなファイルを新しく作成して， opPMReportExecBaseTask を継承する．すると下記のように一日毎のデータと月毎のデータを追加する処理を使用して設定することができる．
 
-    $this->setDailyReport('login', $date, $result['count']);
-    $this->setMonthlyReport('login', $date, $result['count']);
-    $this->addMonthlyReport('login', $date, $result['count']);
+    $this->setDailyReport('login', $date, $result['count']);    # ある日の集計結果を格納
+    $this->setMonthlyReport('login', $date, $result['count']);  # ある月の集計結果を格納
+    $this->addMonthlyReport('login', $date, $result['count']);  # ある月の集計結果に追加
