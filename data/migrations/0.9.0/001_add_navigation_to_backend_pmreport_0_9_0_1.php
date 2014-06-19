@@ -8,7 +8,7 @@
  * file and the NOTICE file that were distributed with this source code.
  */
 
-class addNavigationItemForBackend extends Doctrine_Migration_Base
+class addNavigationToBackendPMReport_0_9_0_1 extends Doctrine_Migration_Base
 {
   public function up()
   {
